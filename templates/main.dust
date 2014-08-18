@@ -1,0 +1,8 @@
+UITextField *{name} = [[UITextField alloc] init];{~n}
+[{name} setTranslatesAutoresizingMaskIntoConstraints:NO];{~n}
+{name}.textColor = [UIColor {@objCColor}{baseTextStyle.color}{/objCColor}];{~n}
+{name}.font = [UIFont fontWithName:@"[TextFont {@objCFont}{baseTextStyle.font}{/objCFont}]" size:{baseTextStyle.font.size}];{~n}
+{name}.textAlignment = {@objCAlignment}{textAlign}{/objCAlignment};{~n}
+{name}.placeholder = {@nsLocalizedString}{text}{/nsLocalizedString};{~n}{~n}
+
+[superView addSubview:{name}];
