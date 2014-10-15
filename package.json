@@ -3,17 +3,14 @@
   "title": "Text Field Label",
   "version": "0.0.1",
   "description": "Template for Text Field Label in Objective-C",
+  "scope": "source.objc, source.objc++",
   "main": "dust.js",
+  "category": "label",
+  "layerType": ["textLayer"],
   "author": "Tomas Ruzicka <tomasruzicka@abdoc.net> (https://github.com/lezuse)",
   "license": "MIT",
   "dependencies": {
   },
   "bundledDependencies": [
-  ],
-  "settings": {
-    "category": {
-      "type": "string",
-      "default": "label"
-    }
-  }
+  ]
 }
